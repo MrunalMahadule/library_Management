@@ -5,14 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-//using System.Collection;
+using System.Collection;
 
 namespace ADOExample2
 {
     class DeptDAL
     {
-//added to git
-//comment added
         public SqlDataReader GetDepartment()
         {
             SqlDataReader reader = null;
